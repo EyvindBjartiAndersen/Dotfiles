@@ -1,0 +1,128 @@
+# programming
+https://planetpython.org/rss20.xml programming
+https://twitrss.me/twitter_user_to_rss/?user=raymondh programming
+http://neopythonic.blogspot.com/feeds/posts/default programming
+http://www.pybloggers.com/feed/ programming
+https://nedbatchelder.com/blog/rss.xml programming
+https://www.reddit.com/r/python/.rss programming
+http://stackoverflow.com/feeds/tag?tagnames=python&sort=newest programming
+https://stackoverflow.com/feeds/tag?tagnames=c&sort=newest programming
+https://www.reddit.com/r/c_language/.rss programming
+http://www.evanmiller.org/news.xml programming
+http://richg42.blogspot.com/feeds/posts/default programming
+http://nickdesaulniers.github.io/atom.xml programming
+http://lowlevelbits.org/atom.xml programming
+http://charlesleifer.com/blog/rss/ programming
+http://ewontfix.com/feed.rss programming
+https://softwarestrategiesblog.com/feed/ programming
+https://jvns.ca/atom.xml programming
+http://softwareengineering.stackexchange.com/feeds programming
+https://robertheaton.com/feed.xml programming
+http://scicomp.stackexchange.com/feeds programming
+http://cs.stackexchange.com/feeds programming
+http://dba.stackexchange.com/feeds programming
+http://arduino.stackexchange.com/feeds programming
+https://www.reddit.com/r/systems/.rss programming
+http://lambda-the-ultimate.org/rss.xml programming
+http://stackoverflow.com/feeds programming
+http://machinethink.net/blog/index.xml programming
+https://ciechanow.ski/atom.xml programming
+https://news.ycombinator.com/rss programming
+https://www.geeksforgeeks.org/feed/ programming
+https://www.reddit.com/r/AskComputerScience/.rss programming
+https://www.reddit.com/r/programming/.rss programming
+http://export.arxiv.org/rss/cs programming
+http://dblp.uni-trier.de/news/jour-update.rss programming
+http://attractivechaos.wordpress.com/feed/ programming
+http://allenchou.net/feed/ programming
+http://coldattic.info/shvedsky/pro/blogs/a-foo-walks-into-a-bar/posts/rss programming
+http://hbfs.wordpress.com/feed/ programming
+http://lemire.me/blog/feed/ programming
+http://randomascii.wordpress.com/feed/ programming
+http://sandervanrossen.blogspot.com/feeds/posts/default programming
+http://stevehanov.ca/blog/?atom programming
+http://tatourian.wordpress.com/feed/ programming
+http://250bpm.com/feed/pages/pagename/blog/category/blog/t/250bpm-blogs/h/http%3a%2f%2fwww.250bpm.com%2fblog programming
+http://www.ddj.com/rss/cpp.xml programming
+http://interplayoflight.wordpress.com/feed/ programming
+http://planet.clang.org/atom.xml programming
+http://strilanc.com/feed.xml programming
+http://bartwronski.com/feed/ programming
+http://notes.ericjiang.com/feed programming
+http://blog.feabhas.com/feed/rss2/ programming
+http://danluu.com/atom.xml programming
+http://nullprogram.com/feed/ programming
+http://www.pagetable.com/?feed=rss2 programming
+http://locklessinc.com/feed.rss programming
+http://blog.regehr.org/feed programming
+
+# mathematics
+https://terrytao.wordpress.com/feed/ "mathematics"
+https://gowers.wordpress.com/feed/ "mathematics"
+https://mathenchant.wordpress.com/feed/ "mathematics"
+http://feeds.feedburner.com/RunningAMathClubMyExperiences "mathematics"
+https://polymathprojects.org/feed/ "mathematics"
+https://rjlipton.wordpress.com/feed/ "mathematics"
+https://qchu.wordpress.com/feed/ "mathematics"
+https://rigtriv.wordpress.com/feed/ "mathematics"
+https://gilkalai.wordpress.com/feed/ "mathematics"
+https://unapologetic.wordpress.com/feed/ "mathematics"
+https://mathbabe.org/feed/ "mathematics"
+https://intothecontinuum.tumblr.com/rss "mathematics"
+https://jeremykun.com/feed/ "mathematics"
+https://www.scottaaronson.com/blog/?feed=rss2 "mathematics"
+https://www.johndcook.com/blog/feed/ "mathematics"
+https://cameroncounts.wordpress.com/feed/ "mathematics"
+https://agtb.wordpress.com/feed/ "mathematics"
+
+
+# it security
+https://blog.zsec.uk/rss/ "it security"
+https://gracefulsecurity.com/feed/ "it security"
+https://blog.it-securityguard.com/feed/ "it security"
+https://tisiphone.net/feed/ "it security"
+https://www.arneswinnen.net/feed/ "it security"
+https://philippeharewood.com/feed/ "it security"
+https://bitquark.co.uk/blog/feed.rss "it security"
+https://whitton.io/feed.xml "it security"
+https://www.schneier.com/blog/atom.xml "it security"
+https://krebsonsecurity.com/feed/ "it security"
+https://threatpost.com/feed/ "it security"
+https://feeds.feedburner.com/securityweek "it security"
+https://www.darkreading.com/rss_simple.asp "it security"
+https://isc.sans.edu/rssfeed_full.xml "it security"
+https://rss.packetstormsecurity.com/news/ "it security"
+https://www.grahamcluley.com/feed/ "it security"
+https://nvd.nist.gov/download/nvd-rss.xml "it security"
+https://www.exploit-db.com/rss.xml "it security"
+https://rss.packetstormsecurity.com/ "it security"
+
+# cryptography
+https://threatpost.com/category/cryptography/feed/ cryptography
+https://rss.packetstormsecurity.com/news/tags/cryptography/ cryptography
+https://rss.packetstormsecurity.com/files/tags/crypto/ cryptography
+https://rss.packetstormsecurity.com/files/tags/encryption/ cryptography
+http://bristolcrypto.blogspot.com/feeds/posts/default cryptography
+http://crypto.stackexchange.com/feeds cryptography
+
+# local news
+https://www.dr.dk/nyheder/service/feeds/allenyheder "local news"
+https://ekstrabladet.dk/rssfeed/all/ "local news"
+https://www.bt.dk/nyheder/seneste/rss "local news"
+http://borsen.dk/rss/ "local news"
+
+# international news
+http://feeds.bbci.co.uk/news/rss.xml "international news"
+http://feeds.bbci.co.uk/news/world/rss.xml "international news"
+https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml "international news"
+https://rss.nytimes.com/services/xml/rss/nyt/World.xml "international news"
+https://www.reddit.com/r/worldnews/.rss "international news"
+http://rss.cnn.com/rss/cnn_topstories.rss "international news"
+http://feeds.reuters.com/reuters/topNews "international news"
+https://feeds.a.dj.com/rss/RSSWorldNews.xml "international news"
+
+# finance news
+https://ir.thomsonreuters.com/rss/news-releases.xml?items=15 "finance news"
+https://ir.thomsonreuters.com/rss/events.xml?items=15 "finance news"
+https://ir.thomsonreuters.com/rss/sec-filings.xml?items=15 "finance news"
+https://feeds.a.dj.com/rss/RSSMarketsMain.xml "finance news"
