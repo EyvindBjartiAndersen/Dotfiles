@@ -1,0 +1,91 @@
+# settings
+history-limit 1024
+max-items 256
+show-keymap-hint no
+auto-reload no
+prepopulate-query-feeds yes
+cleanup-on-quit yes
+max-downloads 8
+download-retries 3
+download-timeout 30
+player mpv
+refresh-on-startup yes
+browser qutebrowser
+reload-threads 8
+
+# sorting
+article-sort-order lastupdated
+feed-sort-order lastupdated
+
+# unbind keys
+unbind-key '
+unbind-key a
+unbind-key q
+unbind-key o
+unbind-key R
+unbind-key e
+unbind-key u
+unbind-key ;
+unbind-key n
+unbind-key p
+unbind-key i
+unbind-key T
+unbind-key t
+unbind-key ENTER
+unbind-key SPACE
+unbind-key l
+unbind-key L
+
+# bind keys
+goto-next-feed no
+bind-key e down
+bind-key E pagedown
+bind-key n quit
+bind-key i open
+bind-key u up
+bind-key t set-tag
+bind-key r toggle-article-read
+bind-key R reload-all
+bind-key SPACE open-in-browser
+bind-key U pageup
+bind-key e down tagselection
+bind-key u up tagselection
+bind-key o goto-url
+
+# ignores
+ignore-article "*" "title =~ \"Sponsor\""
+ignore-article "*" "title =~ \"Advertisement\""
+ignore-mode "display"
+
+# colors
+color background   default   default
+color listnormal   default   default
+color listnormal_unread default default bold
+color listfocus    default	 color8
+color listfocus_unread default color8 bold
+color info         default   default bold
+color article      default   default
+color end-of-text-marker color0 default invis
+
+# highlighting
+#highlight article "^(Feed|Title|Author|Link|Date):.*" default default
+highlight article "^(Feed|Title|Author|Link|Date):.*" default default bold
+highlight article "^Links:" default default
+highlight article "\\[[0-9][0-9]*\\]" default default
+highlight article "\\[image [0-9][0-9]*\\]" default default
+highlight article ":.*\\(link\\)$" default default
+highlight article ":.*\\(image\\)$" default default
+
+# title formatting
+articlelist-format "%?T?|%-17T| ?%t"
+feedlist-format "%t"
+feedlist-title-format "%u Unread %t feeds"
+searchresult-title-format "Search result %u/%t"
+articlelist-title-format "%T"
+help-title-format "Help"
+selecttag-title-format  "Select a tag"
+itemview-title-format "%T"
+filebrowser-title-format " %?O?Open file:&Save file? - %f"
+selectfilter-title-format "Select a filter"
+urlview-title-format "Urls found in this article"
+dialogs-title-format "Select a dialog"
