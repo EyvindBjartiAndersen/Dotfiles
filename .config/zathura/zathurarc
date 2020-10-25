@@ -1,0 +1,29 @@
+set font "monospace 10"
+set selection-clipboard clipboard
+set scroll-page-aware "true"
+set scroll-step 75
+set adjust-open width
+set window-title-basename true
+set page-padding 10
+set guioptions none
+set zoom-center true
+set statusbar-h-padding 4
+set statusbar-v-padding 4 
+set statusbar-bg "747369"
+set highlight-color "#2d2d2d"
+set highlight-active-color "#d3d0c8"
+
+map [normal]     e scroll down
+map [normal]     u scroll up
+map [normal]     n scroll left
+map [normal]     i scroll right
+map [normal]     <C-u> navigate previous
+map [normal]     <C-e> navigate next
+map [normal] 	 r quit
+map [normal] 	 U zoom in
+map [normal] 	 E zoom out
+
+map [index] i toggle_index
+map [index] u navigate_index up
+map [index] e navigate_index down
+map [index] <Space> navigate_index select
