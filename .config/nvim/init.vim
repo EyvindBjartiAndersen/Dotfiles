@@ -282,10 +282,23 @@ au BufRead,BufNewfile * syn match fmrkr '"*{{{\|"*}}}' |
 set laststatus=2
 set statusline=
 set statusline+=%#PmenuSel#
-set statusline+=\ %{fugitive#head()}\
-set statusline+=\ 
 set statusline+=\ %f
+set statusline+=\ %{StatusDiagnostic()}
+set statusline+=\ 
+set statusline+=\ %{fugitive#head()}
 set statusline+=%=
-set statusline+=\ 
 set statusline+=\ %l:%c
 set statusline+=\ "}}}
+" functions {{{
+	function! StatusDiagnostic() abort
+	  let info = get(b:, 'coc_diagnostic_info', {})
+	  if empty(info) | return '' | endif
+	  let msgs = []
+	  if get(info, 'error', 0)
+	    call add(msgs, ' ' . info['error'])
+	  endif
+	  if get(info, 'warning', 0)
+	    call add(msgs, ' ' . info['warning'])
+	  endif
+	  return join(msgs, ' ')
+	endfunction "}}}
