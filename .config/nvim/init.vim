@@ -282,7 +282,7 @@ au BufRead,BufNewfile * syn match fmrkr '"*{{{\|"*}}}' |
 set laststatus=2
 set statusline=
 set statusline+=%#PmenuSel#
-set statusline+=\ %f
+set statusline+=\ %F
 set statusline+=\ %{StatusDiagnostic()}
 set statusline+=\ 
 set statusline+=\ %{fugitive#head()}

@@ -1,0 +1,8 @@
+# colemak bindings
+u    back-line
+e    forw-line
+i    right-scroll
+n    left-scroll
+r   quit
+U   back-screen
+E   forw-screen-force
