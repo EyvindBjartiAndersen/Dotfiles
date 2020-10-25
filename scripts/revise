@@ -1,0 +1,53 @@
+#!/bin/bash
+
+. "/home/vuoto/.cache/wal/colors.sh"
+
+FG=$color7
+BG=$color0
+SB=$color8
+SF=$color7
+
+prog="revise
+test.py
+test.c
+polybar
+newsboaturls
+newsboat
+searchhistory
+qutebrowser
+qutewal.py
+picom.conf
+init.vim
+kitty.conf
+xinitrc
+xresources
+local.conf
+bspwmrc
+xmodmap
+sxhkdrc"
+
+cmd=$(exec rofi -dmenu <<< "$prog")
+# cmd=$(exec dmenu -fn "monospace:size=10:dpi=157" -nf "$FG" -nb "$BG" -sb "$SB" -sf "$SF" <<< "$prog")
+
+case ${cmd%% *} in
+	revise)		exec st -e nvim "$HOME//scripts/revise"	;;
+	xinitrc)	exec st -e nvim "$HOME/.xinitrc"	;;
+	xmodmap)	exec st -e nvim "$HOME/.Xmodmap"	;;
+	newsboaturls)	exec st -e nvim "$HOME/.config/newsboat/urls"	;;
+	newsboat)	exec st -e nvim "$HOME/.config/newsboat/config"	;;
+	searchhistory)	exec st -e nvim "$HOME/.cache/search_history"
+		;;
+	qutebrowser)	exec st -e nvim "$HOME/.config/qutebrowser/config.py"	;;
+	qutewal.py)	exec st -e nvim "$HOME/.config/qutebrowser/qutewal.py"	;;
+	polybar)	exec st -e nvim "$HOME/.config/polybar/config"	;;
+	init.vim)	exec st -e nvim "$HOME/.config/nvim/init.vim"	;;
+	test.py)	exec st -e nvim "$HOME/test.py"	;;
+	test.c)	exec st -e nvim "$HOME/test.c"	;;
+	picom.conf)	exec st -e nvim "$HOME/.config/picom/picom.conf"	;;
+	xresources)	exec st -e nvim "$HOME/.Xresources"	;;
+	kitty.conf)	exec st -e nvim "$HOME/.config/kitty/kitty.conf"	;;
+	local.conf)	exec st -e nvim "/etc/fonts/local.conf"	;;
+	bspwmrc)	exec st -e nvim "$HOME/.config/bspwm/bspwmrc"	;;
+	sxhkdrc)	exec st -e nvim "$HOME/.config/sxhkd/sxhkdrc"	;;
+  	*)		exec "'${cmd}'"  ;;
+esac

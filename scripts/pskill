@@ -1,0 +1,16 @@
+#!/bin/sh
+
+. "/home/vuoto/.cache/wal/colors.sh"
+
+FG=$color7
+BG=$color0
+SB=$color8
+SF=$color7
+
+APP=`cat ~/.cache/pskill_history | sort | uniq | rofi -dmenu`
+
+if [ -n "$APP" ]; then
+    grep -q "$QUERY" "$HOME/.cache/pskill_history"
+    echo $APP >> ~/.cache/pskill_history
+    exec sudo pkill $APP
+fi

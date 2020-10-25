@@ -1,0 +1,27 @@
+#!/bin/sh
+
+. "/home/vuoto/.cache/wal/colors.sh"
+
+FG=$color7
+BG=$color0
+SB=$color8
+SF=$color7
+
+cmd=$(printf "logout\nsuspend\nreboot\npoweroff\n" | rofi -dmenu) 
+
+if [ -z "$cmd" ]; then
+	exit 0
+fi
+
+case "$cmd" in
+    logout)
+        sudo pkill -KILL -u $USER ;;
+	suspend)
+		systemctl suspend ;;
+	reboot)
+		systemctl reboot ;;
+	poweroff)
+		systemctl poweroff ;;
+	*)
+		printf "option not recognized: %s\n" "$cmd" >&2
+esac

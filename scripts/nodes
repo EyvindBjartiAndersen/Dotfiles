@@ -1,0 +1,18 @@
+#!/bin/sh
+
+if [ "${@:-1}" == "1" ]
+then
+    win=`wmctrl -l | colrm 1 20 | rofi -dmenu`
+else
+  win=`wmctrl -l | colrm 1 20 | rofi -dmenu`
+fi
+
+if [ "$win" == "" ]
+then
+  exit
+elif [ "$win" == "Desktop" ]
+then
+  wmctrl -k on
+else
+  wmctrl -a $win
+fi

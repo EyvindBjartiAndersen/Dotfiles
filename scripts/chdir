@@ -1,0 +1,19 @@
+#!/bin/bash
+
+dir="downloads
+pictures
+wallpapers
+dotfiles
+scripts
+pdfs"
+
+cmd=$(exec rofi -dmenu -i -p "" <<< "$dir")
+
+case ${cmd%% *} in
+    pictures)	exec kitty @ --cwd "$HOME/pictures"	;;
+    wallpapers)	exec kitty @ --cwd "$HOME/pictures/wallpapers"	;;
+	pdfs)	exec kitty -cd "$HOME/documents/pdfs"	;;
+    downloads)	exec kitty -cd "$HOME/Downloads"	;;
+    scripts)    kitty @ new-window --cwd=/home/vuoto/scripts	;;
+  	*)		exec "'${cmd}'"  ;;
+esac

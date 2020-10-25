@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+FG=$color7
+BG=$color0
+SB=$color8
+
+URL='http://yubnub.org/parser/parse?command='
+QUERY=$(echo '' | rofi -dmenu)
+
+if [ -n "$QUERY" ]; then
+	qutebrowser ':open -p' "${URL}${QUERY}" 2> /dev/null
+fi

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+. "/home/vuoto/.cache/wal/colors.sh"
+
+FG=$color7
+BG=$color0
+SB=$color8
+SF=$color7
+
+WP=$(ls ~/pictures/wallpapers | rofi -dmenu)
+if [ -n "$WP" ]; then
+  feh --bg-center ~/pictures/wallpapers/"${WP}"
+fi

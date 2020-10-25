@@ -1,0 +1,15 @@
+#!/bin/bash
+
+. "/home/vuoto/.cache/wal/colors.sh"
+
+FG=$color7
+BG=$color0
+SB=$color8
+SF=$color7
+
+QUERY=$(cat ~/.cache/search_history | rofi -dmenu)
+if [ -n "$QUERY" ]; then
+    grep -q "$QUERY"  "$HOME/.cache/search_history"
+    echo $QUERY >> ~/.cache/search_history_temp && sort -u ~/.cache/search_history_temp > ~/.cache/search_history
+  qutebrowser "${QUERY}" 2> /dev/null
+fi
