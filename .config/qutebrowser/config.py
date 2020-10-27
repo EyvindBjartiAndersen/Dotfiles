@@ -1486,7 +1486,7 @@ c.tabs.indicator.width = 0
 
 ## Padding (in pixels) around text for tabs.
 ## Type: Padding
-c.tabs.padding = {'top': 4, 'bottom': 4, 'left': 8, 'right': 8}
+c.tabs.padding = {'top': 4, 'bottom': 4, 'left': 6, 'right': 6}
 
 ## Force pinned tabs to stay at fixed URL.
 ## Type: Bool
