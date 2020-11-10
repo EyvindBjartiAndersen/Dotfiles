@@ -2,7 +2,7 @@
 setxkbmap us colemak "ctrl:nocaps,shift:both_capslock"
 [[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
 xcape -e 'Control_L=Escape'
-xset r rate 200 90
+xset r rate 150 150
 xset s off
 
 # setup
